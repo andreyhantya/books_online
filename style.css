@@ -1,0 +1,23 @@
+.wrap {
+    width: 100%;
+    min-height: 50px;
+}
+
+header {
+    width: 100%;
+}
+
+.inner-wrap{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.top-navigation {
+    background-color: #424242;
+    height: 30px;
+}
+
+.top-navigation ul li{
+    list-style: none;
+    display: inline-block;
+}
