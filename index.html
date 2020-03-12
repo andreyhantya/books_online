@@ -3,66 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <title>BooksOnline</title>
-    <link rel="stylesheet/less" type="text/css" href="styles.less" />
-    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js" ></script>
+    <link rel="stylesheet/less" type="text/css" href="styles.less"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js"></script>
 </head>
 <body>
-    <div class="wrap">
-        <div class="inner-wrap">
-            <header>
-                <div class="top-navigation">
-                    <div class="container">
-                        <ul>
-                            <li><a href="#"> Sing in </a></li>
-                            <li><a href="#"> My Account </a></li>
-                            <li><a href="#"> Order Status </a></li>
-                            <li><a href="#"> Help </a></li>
-                        </ul>
-                    </div>
+<div class="wrap">
+    <div class="inner-wrap">
+        <header>
+            <div class="top-navigation">
+                <div class="container">
+                    <ul>
+                        <li><a href="#"> Sing in </a></li>
+                        <li><a href="#"> My Account </a></li>
+                        <li><a href="#"> Order Status </a></li>
+                        <li><a href="#"> Help </a></li>
+                    </ul>
                 </div>
-                <div class="middle-navigation">
-                    <div class="container">
-                        <div class="logo">
-                            <a href="#">
-                                <img src="images/logo.png" alt="logo">
-                            </a>
-                        </div>
-                        <div class="search-panel">
-                            <input type="text">
-                            <span>Search</span>
-                        </div>
+            </div>
+            <div class="middle-navigation">
+                <div class="container">
+                    <div class="logo">
+                        <a href="#">
+                            <img src="images/logo.png" alt="logo">
+                        </a>
+                    </div>
+                    <div class="search-panel">
+                        <input type="search" id="search">
 
-                        <div class="cart-wrap">
-                            <span class="cart">Your cart
+                        <button type="submit"><i class="fa fa-search"></i>Search</button>
+                    </div>
+
+                    <div class="cart-wrap">
+                            <span class="cart"><i class="fa fa-shopping-cart"></i>Your cart
                                 <span class="cart-item">(2 items)</span>
                             </span>
-                            <div id="price">$125.0</div>
-                            <button>Checkout</button>
+                        <div id="price" class="price">
+                            <span>$125.0</span>
+                            <button class="checkout-btn">Checkout</button>
                         </div>
-                        <div id="favorites">
-                        <div class="icon-star"></div>
-                        <p>Wish list <sup id="count-favorites">20</sup></p>
                     </div>
+                    <div id="favorites" class="favorites">
+                        <div class="icon-star"><img src="images/icons/star.png" alt="start"></div>
+                        <span>Wish list
+                                <sup id="count-favorites" class="count-favorites">20</sup>
+                            </span>
                     </div>
                 </div>
-                <nav>
-                    <div class="container">
-                        <ul>
-                            <li><a href="#"> Computers </a></li>
-                            <li><a href="#"> Cooking </a></li>
-                            <li><a href="#"> Education </a></li>
-                            <li><a href="#"> Fiction </a></li>
-                            <li><a href="#"> Health </a></li>
-                            <li><a href="#"> Mathematics </a></li>
-                            <li><a href="#"> Medical </a></li>
-                            <li><a href="#"> Reference </a></li>
-                            <li><a href="#"> Science </a></li>
-                        </ul>
-                    </div>
-                </nav>
-            </header>
-        </div>
+            </div>
+            <nav>
+                <div class="container">
+                    <ul>
+                        <li><a href="#"> Computers </a></li>
+                        <li><a href="#"> Cooking </a></li>
+                        <li><a href="#"> Education </a></li>
+                        <li><a href="#"> Fiction </a></li>
+                        <li><a href="#"> Health </a></li>
+                        <li><a href="#"> Mathematics </a></li>
+                        <li><a href="#"> Medical </a></li>
+                        <li><a href="#"> Reference </a></li>
+                        <li><a href="#"> Science </a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
     </div>
+</div>
 
 </body>
 </html>
