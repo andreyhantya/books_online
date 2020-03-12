@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  /*color: #A6A5A5;*/
+  text-decoration: none;
+}
+.wrap {
+  width: 100%;
+  min-height: 50px;
+}
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+.top-navigation {
+  display: block;
+  background-color: #424242;
+  height: 30px;
+}
+.top-navigation ul {
+  text-align: right;
+}
+.top-navigation ul li {
+  color: #EFEFEF;
+  margin-top: 5px;
+  margin-left: 30px;
+}
+.middle-navigation {
+  background-color: #EFEFEF;
+}
+.top-navigation ul li {
+  list-style: none;
+  display: inline-block;
+}
+/*# sourceMappingURL=styles.css.map */
